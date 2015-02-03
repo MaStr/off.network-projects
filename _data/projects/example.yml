@@ -1,0 +1,5 @@
+name: Example
+##url: http://piratebox.cc
+## if not set, you can place a file in the project folder
+description: this is only a example entry
+categories: 
