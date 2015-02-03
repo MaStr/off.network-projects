@@ -1,5 +1,5 @@
 # off.network-projects
-List of nown off.network projects
+List of kown off.network projects
 
 Please feel free to contribute to the list.
 Projects should be added to ''_data/projects''.
