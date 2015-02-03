@@ -11,3 +11,20 @@ title:  'Welcome'
 </p>
 
 
+
+<table>
+<tr><th>Name</th><th>Description</th><th>Categories</th><th>Project Website</th></tr>
+{% for project_hash in site.data.projects %}
+{% assign proj = project_hash[1] %}
+  <tr>
+	<td>{{ proj.name }}</td>
+	<td>{{ proj.description }} </td>
+	<td>{{ proj.categories }} </td>
+{% if proj.url == blank %}
+	<td><a href="projects/{{ proj.name }}.html">small project page</a>
+{% else %}
+	<td><a href="{{ proj.url }}" target="_blank">Website</a></td>
+{% endif %}
+  </tr>
+{% endfor %}
+</table>
