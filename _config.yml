@@ -1,0 +1,25 @@
+###########
+# site.url, site.title
+
+url:   'http://mastr.github.io/off.network-projects/'
+title: 'Offline Networks - Projects page'
+
+
+########
+# more settings
+
+markdown: kramdown
+
+sass:
+  sass_dir: css
+  style:    expanded
+
+
+
+exclude:
+- README.md
+
+
+safe: true
+lsi: false
+
